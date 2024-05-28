@@ -3,7 +3,6 @@ import { Card } from '@/components/ui/card'
 import React from 'react'
 import { Button } from '@/components/ui/button'
 import { Bell, Factory, Captions, ClipboardCheck } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 export default function Expertise() {
   return (
