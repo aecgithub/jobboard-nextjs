@@ -9,14 +9,15 @@ export async function GET(request) {
 
     
     // filter BEC jobs
-    const becJobs = jobs.filter((data) => {
-        if (data.Department_Name.id == 609729000004595026) {
-            return data
-        }
-    })
+    // const becJobs = jobs.filter((data) => {
+    //     if (data.Department_Name.id == 609729000004595026) {
+    //         return data
+    //     }
+    // })
     // filter BEC jobs
+
     // filter active jobs
-    const activeJobs = becJobs.filter((data)=>{
+  const activeJobs = jobs.filter((data)=>{
       if(data.Job_Opening_Status != "Inactive"){
         return data
       }

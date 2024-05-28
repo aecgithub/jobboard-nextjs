@@ -34,7 +34,7 @@ export function Header() {
     return (
         <>
         <div className="container flex justify-between items-center py-3"> 
-            <div className="w-[200px]">
+            <div className="w-[170px]">
                 <a href="/">
                     <img src="/images/logo.png" />
                 </a>
