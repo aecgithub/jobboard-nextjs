@@ -10,12 +10,14 @@ export default function page() {
     <div className='flex justify-center mb-10'>
       <div className='lg:w-4/5 w-full'>
         <div className='flex justify-center py-6 text-center'>
-          <h1 className='text-3xl'>Drupal Recruitment</h1>
+          <h1 className='text-3xl'>Drupal Recruitment in Europe and Around the Globe</h1>
         </div>
         <div className='flex gap-5 py-5 flex-col lg:flex-row'>
-          <div className='lg:w-1/2 w-full'>
-            <p>
-              All-inclusive Drupal recruitment solutions for International institutions and organisations worldwide, if you are looking for a one-stop-solution for Drupal recruitment, you have come to the right place. BE Consultancy Group specializes in sourcing talent worldwide. We provide pre-screened, top-tier professionals, consultants, developers, engineers, and system architects specializing in Drupal. We operate an expansive network worldwide and have made hundreds of Drupal placements worldwide.</p>
+          <div className='lg:w-1/2 w-full flex flex-col gap-2'>
+            <p> End-to-end Drupal Recruitment Solutions in Europe, where we source talent for leading markets across the region.</p>
+            <p>Pre-screened, top-tier Drupal consultants, developers, engineers, or architects.</p>
+            <p>You can rely on BE Consultancy to provide dedicated expertise on permanent or contingent agreements for your development projects.</p>
+            <p>In addition, BE Consultancy is a global recruitment company and our Drupal placements now extend different regions of the globe including but not limited to the Asia Pacific Region, Australia, and the Middle East.</p>
           </div>
           <div className='lg:w-1/2 w-full flex justify-center'>
             <img src='/images/recruitment/drupal.jpg' className='rounded-lg'/>
@@ -23,8 +25,8 @@ export default function page() {
         </div>
 
       <div className='flex flex-col gap-4 py-5 border-t'>
-          <h4 className='text-2xl '>Drupal Jobs</h4>
-          <p>If you are looking for your next challenge at one of the International institutions and organisations worldwide, we have plenty for you to choose from. We handle screening, interviews for top institutions worldwide. We have placed hundreds of professionals across the world. We have a streamlined hiring process that helps candidates seamlessly transition into their new jobs. We provide advice and perks for vacancies that require travel, your accommodation, finances and other formalities will be sorted out for you. Go ahead and explore our vacancies today!</p>
+          <h4 className='text-2xl '>Drupal Jobs in Europe and Asia (Asia Pacific)</h4>
+          <p>BE Consultancy lists Drupal jobs for candidates with varying levels of experience. Screening, interviews, and recruitment is handled for top companies across the European region. Having successfully placed hundreds of professionals from the Netherlands, Belgium, Spain, Portugal, Ireland, and Germany, the process is streamlined. Consultancy is not restricted to these countries nevertheless, as part of a global expansion drive, we provide Drupal jobs in Asia (Asia Pacific), Australia, the Middle East, Australia, and beyond. Advice is provided for selected candidates on accommodation, finances, and anything else that helps them transition into their new jobs smoothly. Our listings include full-time, freelance, and remote job opportunities.</p>
       </div>
       </div>
 

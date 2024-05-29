@@ -13,7 +13,7 @@ export default function Home() {
       <Hero/>
       {/* <Community/> */}
       <Expertise/>
-      <Blogs/>
+      {/* <Blogs/> */}
     </div>
   );
 }

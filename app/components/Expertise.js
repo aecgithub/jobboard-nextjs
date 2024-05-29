@@ -82,7 +82,7 @@ export default function Expertise() {
           <div className='flex flex-col gap-3 items-center justify-center text-center'>
               <img src='/images/tech/java.png' className='w-[100px]' />
             <h1 className='font-semibold text-lg'>Java</h1>
-              <p className='text-xs'>Top-tier, comprehensive Java recruitment solution for International institutions and organisations worldwide. We source and place talent across leading markets.</p>
+              <p className='text-xs'>Comprehensive Java Recruitment Solutions in Europe, where we source talent for leading markets across the region. Pre-screened, top-tier java consultants, developers, engineers, or architects.</p>
             <Button variant="ghost" className="text-gray-500" asChild>
               <a href='/recruitment/java-recruitment'>Learn More...</a>
               </Button>
@@ -90,7 +90,7 @@ export default function Expertise() {
           <div className='flex flex-col gap-5 items-center justify-center text-center'>
               <img src='/images/tech/angular.png' className='w-[100px]' />
             <h1 className='font-semibold text-lg'>Angular</h1>
-              <p className='text-xs'>Angular recruitment services are provided for International institutions and organisations worldwide, we source top talent and place pre-screened Angular consultants, developers, engineers, or architects.</p>
+              <p className='text-xs'>Comprehensive Angular Recruitment Solutions in Europe, where we source talent for leading markets across the region.Pre-screened, top-tier angular consultants, developers, engineers, or architects.</p>
               <Button variant="ghost" className="text-gray-500" asChild>
                 <a href='/recruitment/angular-recruitment'>Learn More...</a>
               </Button>
@@ -105,7 +105,7 @@ export default function Expertise() {
           <div className='flex flex-col gap-3 items-center justify-center text-center'>
               <img src='/images/tech/drupal.png' className='w-[100px]' />
             <h1 className='font-semibold text-lg'>Drupal</h1>
-              <p className='text-xs'>All-inclusive Drupal recruitment solutions for International institutions and organisations worldwide, if you are looking for a one-stop-solution for Drupal recruitment, you have come to the right place.</p>
+              <p className='text-xs'>End-to-end Drupal Recruitment Solutions in Europe, where we source talent for leading markets across the region.Pre-screened, top-tier Drupal consultants, developers, engineers, or architects.</p>
               <Button variant="ghost" className="text-gray-500" asChild>
                 <a href='/recruitment/drupal-recruitment'>Learn More...</a>
               </Button>
@@ -113,7 +113,7 @@ export default function Expertise() {
           <div className='flex flex-col gap-5 items-center justify-center text-center'>
               <img src='/images/tech/net.png' className='w-[100px]' />
             <h1 className='font-semibold text-lg'>.Net</h1>
-              <p className='text-xs'>We provide end-to-end .NET (Microsoft) recruitment solutions for International institutions and organisations worldwide.</p>
+              <p className='text-xs'>End-to-end .NET Recruitment Solutions in Europe, where we source talent for leading markets across the region.Pre-screened, top-tier .NET consultants, developers, engineers, or architects.</p>
               <Button variant="ghost" className="text-gray-500" asChild>
                 <a href='/recruitment/net-recruitment'>Learn More...</a>
               </Button>

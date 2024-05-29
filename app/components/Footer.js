@@ -19,13 +19,13 @@ export default function Footer() {
                     <div className='w-1/2'>
                         <h6 className='text-sm font-semibold'>RECRUITMENT</h6>
                         <div className='flex flex-col text-sm py-4 gap-2'>
-                            <a className='hover:text-primary' href='/java-recruitment'>Java Recruitment</a>
-                            <a className='hover:text-primary' href='/angular-recruitment'>Angular Recruitment</a>
-                            <a className='hover:text-primary' href='/net-recruitment'>.NET Recruitment</a>
-                            <a className='hover:text-primary' href='/drupal-recruitment'>Drupal Recruitment</a>
-                            <a className='hover:text-primary' href='/devops-recruitment'>DevOps Recruitment</a>
-                            <a className='hover:text-primary' href='/big-data-recruitment'>Big Data Recruitment</a>
-                            <a className='hover:text-primary' href='/mobile-developer-recruitment'>Mobile Developer Recruitment</a>
+                            <a className='hover:text-primary' href='/recruitment/java-recruitment'>Java Recruitment</a>
+                            <a className='hover:text-primary' href='/recruitment/angular-recruitment'>Angular Recruitment</a>
+                            <a className='hover:text-primary' href='/recruitment/net-recruitment'>.NET Recruitment</a>
+                            <a className='hover:text-primary' href='/recruitment/drupal-recruitment'>Drupal Recruitment</a>
+                            <a className='hover:text-primary' href='/recruitment/devops-recruitment'>DevOps Recruitment</a>
+                            <a className='hover:text-primary' href='/recruitment/big-data-recruitment'>Big Data Recruitment</a>
+                            <a className='hover:text-primary' href='/recruitment/mobile-developer-recruitment'>Mobile Developer Recruitment</a>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,8 @@ export default function Footer() {
                     <div className='w-1/2 '>
                         <h6 className='text-sm font-semibold'>ABOUT</h6>
                         <div className='flex flex-col text-sm py-4 gap-2'>
-                            <a className='hover:text-primary' href='/about'>About</a>
+                            <a className='hover:text-primary' href='/approach'>Approach</a>
+                              <a className='hover:text-primary' href='/company'>Company</a>
                             <a className='hover:text-primary' href='/contact'>Contact</a>
                         </div>
                     </div>

@@ -10,11 +10,14 @@ export default function page() {
     <div className='flex justify-center mb-10'>
       <div className='lg:w-4/5 w-full'>
         <div className='flex justify-center py-6 text-center'>
-          <h1 className='text-3xl'>Java Recruitment worldwide</h1>
+          <h1 className='text-3xl'>Java Recruitment in Europe and Around the Globe</h1>
         </div>
         <div className='flex gap-5 py-5 flex-col lg:flex-row'>
-          <div className='lg:w-1/2 w-full'>
-          <p>Top-tier, comprehensive Java recruitment solution for International institutions and organisations worldwide. We source and place talent across leading markets. Our pre-screened consultants, developers, system engineers, or developers could take your tech stack and development workforce to the next level. Rely on expert consultants to provide dedicated Java talent on permanent, contract, or contingent agreements.</p>
+          <div className='lg:w-1/2 w-full flex flex-col gap-2'>
+            <p> Comprehensive Java Recruitment Solutions in Europe, where we source talent for leading markets across the region. Pre-screened, top-tier java consultants, developers, engineers, or architects.</p>
+            <p>You can rely on our expert IT staffing consultants to provide dedicated Java expertise on permanent or contingent agreements for your development projects.</p>
+            <p>As an established Java recruitment consultancy in the region for over a decade, we locate and source talent and have access to a diverse pool of talent.</p>
+            <p>BE Consultancy is a global recruitment company and our Java placements now extend different regions of the globe including but not limited to the Asia Pacific Region, Australia, and the Middle East.</p>
           </div>
           <div className='lg:w-1/2 w-full flex justify-center'>
             <img src='/images/recruitment/java.jpg' className='rounded-lg'/>
@@ -22,10 +25,14 @@ export default function page() {
         </div>
 
       <div className='flex flex-col gap-4 py-5 border-t'>
-          <h4 className='text-2xl '>Java Jobs</h4>
-          <p>If you&apos;re looking to get hired at one of the International institutions and organisations worldwide, you&apos;ve come to the right place. Apply through BE Consultancy Group and receive comprehensive career guidance for Java positions, whether you are a developer, system engineer, or architect. We have contractor and full-time opportunities giving you the flexibility to maintain an optimum work-life balance. Perks are offered for jobs requiring relocation with bonus incentives and assistance to help you settle into your new job.</p>
-          <p>Our vacancies are varied which means we go beyond traditional employment and contractor Java opportunities. We&apos;ve got a range of remote java positions for you to choose from, across leading International institutions and organisations .</p>
+          <h4 className='text-2xl '>Java Jobs in Europe and Asia (Asia Pacific)</h4>
+          <p>We specialize in providing recruitment services for top clients across Europe, Asia, and around the globe. We provide comprehensive career guidance and consultancy services for candidates looking for java jobs with different levels of work experience. We frequently post openings for top java developer jobs for full-time employees and freelancers. Perks are provided for positions that require relocation with incentives and assistance to help candidates settle down before commencing employment.</p>
+          <p>Wages are provided in line with skills and experience and, more importantly, allow candidates to broaden their horizons. We ensure that our clients give candidates a clear and rewarding career path in addition to excellent remuneration. The organizations we recruit for nurture creativity by encouraging research, learning, and professional development. If you’ve got a new idea, a unique style of development, we encourage that as we understand the value of keeping abreast of industry trends in the evolving world of software development.</p>
       </div>
+        <div className='flex flex-col gap-4 py-5 border-t'>
+          <h4 className='text-2xl '>Java Remote Work in Europe and Asia (Asia Pacific)</h4>
+          <p>Our vacancies extend beyond traditional employment and java freelance opportunities. We frequently post vacancies that allow complete remote working opportunities for java developers, architects, and engineers. Explore our opportunities if you are looking for a pay bump or looking to take your Java career to the next level.</p>
+        </div>
       </div>
 
     </div>

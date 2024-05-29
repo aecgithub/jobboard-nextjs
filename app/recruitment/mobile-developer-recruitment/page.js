@@ -10,12 +10,13 @@ export default function page() {
     <div className='flex justify-center mb-10'>
       <div className='lg:w-4/5 w-full'>
         <div className='flex justify-center py-6 text-center'>
-          <h1 className='text-3xl'>Mobile Developer Recruitment</h1>
+          <h1 className='text-3xl'>Mobile Developer Recruitment in Europe and Around the Globe</h1>
         </div>
         <div className='flex gap-5 py-5 flex-col lg:flex-row'>
-          <div className='lg:w-1/2 w-full'>
-            <p>
-              BE Consultancy Group strives to stay on top of the recruitment game and mobile developer staffing has become an integral part of this endeavor. The advancement of technology demands sophisticated technology, talent, and organizational workflows. We stay ahead of the curve when it comes to the mobile app development industry and have the ability to source Android and iOs developers with the know-how to deliver tomorrow&apos;s tech needs. We work with an extensive network of Android and iOS developers worldwide. We do not simply fill roles, we listen, screen, and employ tried-and-tested methods to acquire the best possible talent for your project.</p>
+          <div className='lg:w-1/2 w-full flex flex-col gap-2'>
+            <p>BE Consultancy, strive hard to stay on top of the recruitment game in a world where the advancement of technology demands more sophisticated talent and work models. Our consultants have their finger on the pulse when it comes to the mobile app development industry.</p>
+            <p>Source Android and iOS developers capable of catering to tomorrow’s tech needs. Staying abreast of market trends, question methodologies that don’t work, and working with an extensive network of Android and iOS developers across Asia, the Middle East, Europe, Australia is what we do.</p>
+            <p>Not focused on simply filling roles, we listen, consult, advise, and take a data-driven approach to acquire the best possible talent for your organization.</p>
           </div>
           <div className='lg:w-1/2 w-full flex justify-center'>
             <img src='/images/recruitment/mobile.jpg' className='rounded-lg'/>
@@ -23,8 +24,8 @@ export default function page() {
         </div>
 
       <div className='flex flex-col gap-4 py-5 border-t'>
-          <h4 className='text-2xl '>Android and iOS Developer Jobs</h4>
-          <p>We list vacancies for mobile developers worldwide. Our opportunities give candidates growth, job satisfaction, and work-life balance. With a strong focus on employee welfare and long-term growth, we place you in top International institutions and organisations worldwide. Go ahead and explore our permanent, freelance, or contractor opportunities and get your dream job today!</p>
+          <h4 className='text-2xl '>Android and iOS Developer Jobs in Europe and Asia (Asia Pacific)</h4>
+          <p>BE Consultancy lists vacancies for mobile developers across Europe, Asia Pacific, and the Middle East. Our opportunities contribute to client and candidate growth alike. With a strong focus on long-term growth, we take great care to make a perfect placement to ensure clients' and candidates' requirements are met.</p>
       </div>
       </div>
 

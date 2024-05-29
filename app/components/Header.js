@@ -72,7 +72,18 @@ export function Header() {
                                             </AccordionItem>
                                             
                                         </Accordion>
-                                        <a href="/about" className="text-black">About</a>
+                                        <Accordion type="single" collapsible className="w-full">
+                                            <AccordionItem className="border-0" value="item-1">
+                                                <AccordionTrigger className="text-black py-0">About</AccordionTrigger>
+                                                <AccordionContent className="pb-0">
+                                                    <div className="flex flex-col gap-3 pt-3">
+                                                        <a className="text-black" href='/approach'>Oru Approach</a>
+                                                        <a className="text-black" href='/company'>About the Company</a>
+                                                    </div>
+                                                </AccordionContent>
+                                            </AccordionItem>
+
+                                        </Accordion>
                                         <a href="/contact" className="text-black">Contact</a>
                                     </div>
                                 </SheetDescription>
@@ -153,13 +164,27 @@ export function Header() {
                                 </ul>
                             </NavigationMenuContent>
                         </NavigationMenuItem>
-                        <NavigationMenuItem>
-                            <Link href="/about" legacyBehavior passHref>
-                                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                    About
-                                </NavigationMenuLink>
-                            </Link>
-                        </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <NavigationMenuTrigger>About</NavigationMenuTrigger>
+                                <NavigationMenuContent>
+                                    <ul className="grid w-[300px] gap-3 p-4 md:w-[400px] md:grid-cols-2">
+                                        <li>
+                                            <NavigationMenuLink asChild>
+                                                <a href="/approach" className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
+                                                    <div className="text-sm font-medium leading-none">Our Approach</div>
+                                                </a>
+                                            </NavigationMenuLink>
+                                        </li>
+                                        <li>
+                                            <NavigationMenuLink asChild>
+                                                <a href="/company" className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
+                                                    <div className="text-sm font-medium leading-none">About the Company</div>
+                                                </a>
+                                            </NavigationMenuLink>
+                                        </li>
+                                    </ul>
+                                </NavigationMenuContent>
+                            </NavigationMenuItem>
                         <NavigationMenuItem>
                             <Link href="/contact" legacyBehavior passHref>
                                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
