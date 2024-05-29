@@ -40,7 +40,7 @@ export default function page() {
                   <div className='flex justify-center py-6'>
                       <h1 className='text-3xl'>Core Values</h1>
                   </div>
-                  <div className='flex gap-5 flex-col lg:flex-row'> 
+                  <div className='flex gap-5 flex-col lg:flex-row items-start'> 
 
                     <div className='flex flex-col justify-center lg:w-1/4 w-full items-center gap-2'>
                         <div className='border border-black rounded-full p-5'>
