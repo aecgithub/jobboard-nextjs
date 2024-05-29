@@ -2,7 +2,7 @@
 
 export async function getJobs(){
     try {
-      const response = await fetch("https://capable-pudding-4d924f.netlify.app/api/all", { next: { revalidate: 3600 } })
+      const response = await fetch("https://bec-nextjs.netlify.app/", { next: { revalidate: 3600 } })
         const data = await response.json()
         // console.log(data)
         return data 
@@ -16,29 +16,29 @@ export async function getJobs(){
 
 
 
-export async function getCachedJobs() {
-  try {
-    const response = await fetch("https://bec-new.netlify.app/api/all")
-    const data = await response.json()
-    return data
-  } catch (error) {
-    console.log('get job error', error)
-    return false
-  }
+// export async function getCachedJobs() {
+//   try {
+//     const response = await fetch("https://bec-new.netlify.app/api/all")
+//     const data = await response.json()
+//     return data
+//   } catch (error) {
+//     console.log('get job error', error)
+//     return false
+//   }
 
-}
-export async function jobsByType(value){
-    const response = await fetch("https://bec-new.netlify.app/api/all")
-    const data = await response.json()
+// }
+// export async function jobsByType(value){
+//     const response = await fetch("https://bec-new.netlify.app/api/all")
+//     const data = await response.json()
 
-    const filterJobs = data.filter((data) =>{
-      if(data.Tags == value){
-        return data;
-      }
-    })
-    const jobs = filterJobs?.slice(0, 5)
-	return jobs
-}
+//     const filterJobs = data.filter((data) =>{
+//       if(data.Tags == value){
+//         return data;
+//       }
+//     })
+//     const jobs = filterJobs?.slice(0, 5)
+// 	return jobs
+// }
 
 export async function getBlogs(){
   try{
