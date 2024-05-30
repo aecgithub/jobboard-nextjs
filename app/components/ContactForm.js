@@ -21,7 +21,7 @@ export default function ContactForm() {
 
     function sendEmail() {
         try {
-            const data = fetch('https://bec-new.netlify.app/api/contact', {
+            const data = fetch('https://aec-nextjs.netlify.app/api/contact', {
                 method: 'POST',
                 body: JSON.stringify({
                     name: name,
@@ -44,7 +44,7 @@ export default function ContactForm() {
 
     function sendReply() {
         try {
-            const data = fetch('https://bec-new.netlify.app/api/reply', {
+            const data = fetch('https://aec-nextjs.netlify.app/api/reply', {
                 method: 'POST',
                 body: JSON.stringify({
                     name: name,

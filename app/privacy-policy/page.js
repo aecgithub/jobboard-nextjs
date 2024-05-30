@@ -1,11 +1,11 @@
 import React from 'react'
 
 export default function page() {
-    const url = 'https://www.be-consultancy-group.com/'
-    const website = 'be-consultancy-group.com'
-    const name = 'BE Consultancy Group'
-    const address = 'De Vrièrestraat 54 - 201B-2000 Belgium'
-    const email = "dpo@be-consultancy-group.com"
+    const url = 'https://www.all-european-careers.com'
+    const website = 'www.all-european-careers.com'
+    const name = 'All European Careers'
+    const address = 'C. De Manuel Galiana i Uriarte, 5, Bajo C, 03100, Alicante, Spain'
+    const email = "dpo@all-european-careers.com"
     const date = "13/07/2021"
 
   return (

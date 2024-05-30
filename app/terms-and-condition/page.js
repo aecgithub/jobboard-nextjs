@@ -1,11 +1,11 @@
 import React from 'react'
 
 export default function page() {
-    const url = 'https://www.be-consultancy-group.com'
-    const website = 'be-consultancy-group.com'
-    const name = 'BE Consultancy Group'
+    const url = 'https://www.all-european-careers.com'
+    const website = 'www.all-european-careers.com'
+    const name = 'All European Careers'
     const address = 'De Vrièrestraat 54 - 201B-2000 Belgium'
-    const email = "dpo@be-consultancy-group.com"
+    const email = "dpo@all-european-careers.com"
     const date = "13/07/2021"
 
     return (
@@ -23,7 +23,7 @@ export default function page() {
                         <div className='py-4 flex flex-col gap-3'>
                             <h6 className='text-2xl py-2 border-b'>Marketing Communications:</h6>
                             <p>Welcome to {name} Website Terms & Conditions These Terms and Conditions (“T&C”) govern your use of {name}’s website at <a href={url} className='text-primary'>{url}</a> (“{name}”) and your relationship with {name} (“{name}”, “we”, “us”, “our” or “ours”). Please read these carefully since they affect your rights and liabilities under the applicable law. Should you not agree to these T&C, please do not use the {name} Site. For any questions on the T&C, please contact <a href={`mailto:${email}`} className='text-primary'>{email}</a></p>
-                            <p>Where BE Consultancy introduces any candidate for a temporary assignment or employment with our customers via phone, postal mail, or e-mail, the necessary introductions are subject to our standard T&C, business terms, and general best practices as applicable. {name} will sign with our customers our standard agreement applicable to them at the point of registration or following registration. These T&C are not a replacement, but an addition to our standard business terms.</p>
+                            <p>Where {name} introduces any candidate for a temporary assignment or employment with our customers via phone, postal mail, or e-mail, the necessary introductions are subject to our standard T&C, business terms, and general best practices as applicable. {name} will sign with our customers our standard agreement applicable to them at the point of registration or following registration. These T&C are not a replacement, but an addition to our standard business terms.</p>
                         </div>
 
                         <div className='py-4 flex flex-col gap-3'>

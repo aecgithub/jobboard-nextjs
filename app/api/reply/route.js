@@ -6,19 +6,19 @@ export async function POST(request){
     const {name,email} = await request.json()
     let res = []
     const transporter = nodemailer.createTransport({
-        host:  `mail.be-consultancy-group.com`,
+    host:  `mail.all-european-careers.com`,
     port: 465,
     secure: true,
     auth: {
-        user: `info@be-consultancy-group.com`,
-        pass: `8z$rY^fH0JbZ`,
+        user: `info@all-european-careers.com`,
+        pass: `vEw9.DTYjAr7`,
     },
     })
 
     try {
         const emailRes = await transporter.sendMail({
             from: 'no-reply@all-european-careers.com',
-        //   to : 'info@all-european-careers.com',
+        //   to : 'malin.pramoditha@gmail.com',
           to : email,
             subject: `We have received your message`,
           html: `
@@ -32,7 +32,7 @@ export async function POST(request){
                         <table cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; margin: 0 auto; border-collapse: collapse;">
                             <tr>
                                 <td style="background-color: #f4f4f4; padding: 20px; text-align: center;">
-                                    <img src="https://bec-new.netlify.app//images/logo.png" width="200px"/>
+                                    <img src="https://aec-nextjs.netlify.app/images/logo.png" width="200px"/>
                                 </td>
                             </tr>
                             <tr>
