@@ -18,8 +18,8 @@ export async function POST(request){
     try {
         const emailRes = await transporter.sendMail({
         from: 'info@all-european-careers.com',
-        //   to : 'info@all-european-careers.com',
-          to : 'malin.pramoditha@gmail.com',
+          to : 'info@all-european-careers.com',
+        //   to : 'malin.pramoditha@gmail.com',
           subject: `Contact form submission from ${new Date().toLocaleString('en-US', { timeZone: 'Europe/Madrid' })} `,
           html: `
                 <!DOCTYPE html>
@@ -49,7 +49,7 @@ export async function POST(request){
                             </tr>
                             <tr>
                                 <td style="background-color: #f4f4f4; padding: 20px; text-align: center; margin-top: 10px;">
-                                    <p style="color: #888;">This email has been generated automatically from www.be-consultancy-group.com.</p>
+                                    <p style="color: #888;">This email has been generated automatically from www.all-european-careers.com/.</p>
                                 </td>
                             </tr>
                         </table>

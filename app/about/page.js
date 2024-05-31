@@ -1,5 +1,10 @@
 import React from 'react'
 
+export const metadata = {
+    title: "About Us | Staffing Solutions Worldwide | All European Careers",
+    description: "All European Careers (AEC) is a full-service IT staffing solutions Consultancy operating worldwide specialising in Java, Drupal, Angular, DevOps, Big Data, Mobile and .NET technologies.",
+}
+
 export default function page() {
   return (
     <div className=''>

@@ -3,6 +3,8 @@ import { getJobs } from '../service/getAllJobs'
 import Jobs from '../components/Jobs'
 import FetchError from '../components/FetchError'
 
+
+
 export default async function page() {
     
     let jobs = []

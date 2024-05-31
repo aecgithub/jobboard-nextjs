@@ -1,11 +1,25 @@
+import { Facebook, Linkedin, Twitter } from 'lucide-react'
 import React from 'react'
+
+const year = new Date().getFullYear()
 
 export default function Footer() {
   return (
-    <div className='bg-foreground py-10'>
+    <div className='bg-foreground pt-10'>
         <div className='container lg:flex items-center'>
-            <div className='lg:w-2/5 w-full flex justify-center pb-4 lg:pb-0'>
+            <div className='lg:w-2/5 w-full flex flex-col items-center pb-4 lg:pb-0'>
                 <img src='/images/logo.png' className='w-[200px]'/>
+                <div className='flex gap-5 w-2/5 py-5'>
+                      <a className='text-white hover:text-primary' href='https://www.linkedin.com/company/all-european-careers/' target='_blank'>
+                        <Linkedin strokeWidth={1}/>
+                     </a>
+                      <a className='text-white hover:text-primary' href='https://twitter.com/aec_jobs?lang=en' target='_blank'>
+                        <Twitter  strokeWidth={1}/>
+                      </a>
+                      <a className='text-white hover:text-primary' href='https://www.facebook.com/all.european.careers/' target='_blank'>
+                        <Facebook  strokeWidth={1}/>
+                      </a>
+                </div>
             </div>
               <div className='lg:w-3/5 w-full flex lg:flex-row flex-col text-white gap-3'>
                 <div className='lg:w-1/2 w-full flex '>
@@ -46,6 +60,9 @@ export default function Footer() {
                     </div>
                     </div>
               </div>
+        </div>
+        <div className=' text-center py-5 mt-5 border-t border-gray-700'>
+              <p className='text-sm text-gray-700'>© {year} All European Careers — All Rights Reserved</p>
         </div>
 
     </div>

@@ -2,10 +2,13 @@
 import React from 'react'
 import ContactForm from '../components/ContactForm'
 
+export const metadata = {
+    title: "Contact Us | All European Careers",
+    description: "Do not hesitate to get in touch with us for all your Java, Angular, and Microsoft recruitment needs in Europe.",
+}
+
 export default function page() {
-   
-
-
+  
   return (
     <div>
         <div className='text-center py-5'>
@@ -40,7 +43,7 @@ export default function page() {
                     </div>
                 </div>
                 <div className='w-full lg:w-1/2 flex justify-center'>
-                    <img src='images/map.png' className=''/>
+                    <img src='images/logo.png' className=''/>
                 </div>
             </div>
         </div>

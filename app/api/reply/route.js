@@ -44,7 +44,7 @@ export async function POST(request){
                             </tr>
                             <tr>
                                 <td style="background-color: #f4f4f4; padding: 20px; text-align: center; margin-top: 10px;">
-                                    <p style="color: #888;">This email has been generated automatically from www.be-consultancy-group.com.</p>
+                                    <p style="color: #888;">This email has been generated automatically from www.all-european-careers.com.</p>
                                 </td>
                             </tr>
                         </table>
