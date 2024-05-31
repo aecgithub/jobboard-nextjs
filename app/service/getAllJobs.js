@@ -2,7 +2,7 @@
 
 export async function getJobs(){
     try {
-      const response = await fetch("https://capable-pudding-4d924f.netlify.app/api/all", { next: { revalidate: 3600 } })
+      const response = await fetch("https://aec-nextjs.netlify.app/api/all", { next: { revalidate: 3600 } })
         const data = await response.json()
         // console.log(data)
         return data 
@@ -42,7 +42,7 @@ export async function getJobs(){
 
 export async function getBlogs(){
   try{
-    const response = await fetch('https://bec-new.netlify.app/api/blogs')
+    const response = await fetch('https://aec-nextjs.netlify.app/api/blogs')
     const data = await response.json()
     console.log('posts', data)
     return data
