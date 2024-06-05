@@ -11,6 +11,7 @@ export default function BlogContent(props) {
         const getBanner = axios.get(`https://all-european-careers.com/api/blogs/${blog?.featured_media}`)
         const banner = getBanner.then(function (image) {
             setBanner(image.data)
+            console.log(image.data)
         })
     }, [])
 

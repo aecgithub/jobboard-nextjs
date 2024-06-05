@@ -12,11 +12,15 @@ export default async function Hero() {
     <div className='flex py-10 flex-col-reverse lg:flex-row gap-5'>
         <div className='lg:w-1/2 w-full flex flex-col justify-center items-center lg:items-start'>
 
-            <div className='flex justify-center w-full '>
+            {/* <div className='flex justify-center w-full '>
                 <img src='/images/home/main.png' className='w-1/2 lg:w-[400px]'/>
+            </div> */}
+            <div className='flex flex-col gap-3 py-5 '>
+          <h1 className='text-5xl font-semibold leading-[3.5rem] text-center lg:text-left'>Looking for <span className='text-red-500'>java jobs</span> in <span className='text-primary'>Europe</span>?</h1>
             </div>
 
-        <p className='text-sm text-center lg:text-left py-4 lg:pr-10 pr-0'>Welcome to All European Careers, a European-based consultancy specializing in IT software consultancy, outsourcing and staffing services. We specialize in Java, Angular, Mobile, DevOps, and more.</p>
+            <h6>Tailor-made services for job seekers and employers.</h6>
+            <p className='text-sm text-center lg:text-left py-4 lg:pr-10 pr-0'>Welcome to All European Careers, a European-based consultancy specializing in IT software consultancy, outsourcing and staffing services. We specialize in Java, Angular, Mobile, DevOps, and more.</p>
             <div className='flex gap-2 py-3 justify-center'>
                 <Button className="gap-2 " asChild>
                   <a href='/jobs'>

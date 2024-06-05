@@ -20,6 +20,7 @@ export default function Blogs() {
         const response = axios.get('api/blogs')
         const res = response.then(function (data) {
             setBlogs(data.data)
+            console.log(data.data)
             
         })
 
@@ -65,7 +66,7 @@ export default function Blogs() {
           className="mySwiper"
         >
           {/* {blogs?.length == 0 ? "empty" : "not empty"} */}
-          {blogs?.map((blog)=>(
+          {blogs?.slice(0, 5).map((blog)=>(
             <SwiperSlide key={blog.key}>
               <BlogContent  data={blog}/>
             </SwiperSlide>
