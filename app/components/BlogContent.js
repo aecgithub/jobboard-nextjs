@@ -8,7 +8,7 @@ export default function BlogContent(props) {
 
     useEffect(() => {
         // const getBanner = axios.get(`https://blog.all-european-careers.com/wp-json/wp/v2/media/${blog?.featured_media}`)
-        const getBanner = axios.get(`http://localhost:3000/api/blogs/${blog?.featured_media}`)
+        const getBanner = axios.get(`https://aec-nextjs.netlify.app/api/blogs/${blog?.featured_media}`)
         const banner = getBanner.then(function (image) {
             setBanner( image.data.source_url)
             console.log(image.data.source_url)
