@@ -13,7 +13,7 @@ export default async function page() {
     }
 
   return (
-    <div>
+    <div className='mb-10'>
         <Jobs jobs={jobs} />
     </div>
   )

@@ -15,7 +15,7 @@ export default function JobCard(props) {
         <div className='flex justify-between items-center pt-2'>
               <div className='flex gap-1 items-center'>
                 {props.type ?
-                <Badge className="bg-blue-500 text-white hover:bg-blue-500">{props.type}</Badge>
+                <Badge className="bg-primary text-white hover:bg-primary">{props.type}</Badge>
                 
                 :
                 null

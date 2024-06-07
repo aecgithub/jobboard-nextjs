@@ -70,58 +70,58 @@ export default function Expertise() {
 
       </div>
     </div> */}
-    <div className='py-5'>
-      <div className='flex justify-center'>
-        <div className='w-3/4 text-center py-10 flex flex-col items-center gap-3'>
-            <h1 className='text-xl'>Our Consultancy Expertise</h1>
-          {/* <p>At Quick-board, we offer a wide range of benefits for job seekers. From a variety of industries to job alert subscriptions and resources, we have everything you need to find your dream job.</p> */}
+<div class="py-10 text-center">
+    <div class="flex justify-center py-5">
+        <div class="w-3/4 text-center flex flex-col items-center gap-3">
+            <h1 class="text-xl">Our Consultancy Expertise</h1>
         </div>
-      </div>
-      <div className='flex flex-col lg:flex-row gap-5 py-5 items-center'>
-        <div className='w-full lg:w-1/3 flex flex-col gap-5'>
-          <div className='flex flex-col gap-3 items-center justify-center text-center'>
-              <img src='/images/tech/java.png' className='w-[100px]' />
-            <h1 className='font-semibold text-lg'>Java</h1>
-              <p className='text-xs'>Comprehensive Java Recruitment Solutions in Europe, where we source talent for leading markets across the region. Pre-screened, top-tier java consultants, developers, engineers, or architects.</p>
-            <Button variant="ghost" className="text-gray-500" asChild>
-              <a href='/recruitment/java-recruitment'>Learn More...</a>
-              </Button>
-          </div>
-          <div className='flex flex-col gap-5 items-center justify-center text-center'>
-              <img src='/images/tech/angular.png' className='w-[100px]' />
-            <h1 className='font-semibold text-lg'>Angular</h1>
-              <p className='text-xs'>Comprehensive Angular Recruitment Solutions in Europe, where we source talent for leading markets across the region.Pre-screened, top-tier angular consultants, developers, engineers, or architects.</p>
-              <Button variant="ghost" className="text-gray-500" asChild>
-                <a href='/recruitment/angular-recruitment'>Learn More...</a>
-              </Button>
-          </div>
-        </div>
-
-        <div className='w-full lg:w-1/3 flex flex-col gap-10'>
-          <img src='/images/details.jpg' className='rounded-md'/>
-        </div>
-
-        <div className='w-full lg:w-1/3 flex flex-col gap-5'>
-          <div className='flex flex-col gap-3 items-center justify-center text-center'>
-              <img src='/images/tech/drupal.png' className='w-[100px]' />
-            <h1 className='font-semibold text-lg'>Drupal</h1>
-              <p className='text-xs'>End-to-end Drupal Recruitment Solutions in Europe, where we source talent for leading markets across the region.Pre-screened, top-tier Drupal consultants, developers, engineers, or architects.</p>
-              <Button variant="ghost" className="text-gray-500" asChild>
-                <a href='/recruitment/drupal-recruitment'>Learn More...</a>
-              </Button>
-          </div>
-          <div className='flex flex-col gap-5 items-center justify-center text-center'>
-              <img src='/images/tech/net.png' className='w-[100px]' />
-            <h1 className='font-semibold text-lg'>.Net</h1>
-              <p className='text-xs'>End-to-end .NET Recruitment Solutions in Europe, where we source talent for leading markets across the region.Pre-screened, top-tier .NET consultants, developers, engineers, or architects.</p>
-              <Button variant="ghost" className="text-gray-500" asChild>
-                <a href='/recruitment/net-recruitment'>Learn More...</a>
-              </Button>
-          </div>
-        </div>
-
-      </div>
     </div>
+    <div class="flex justify-center py-5">
+        <div class="w-full justify-between flex lg:flex-row flex-col gap-3 ">
+            <div class="w-full lg:w-1/2 flex lg:flex-row flex-col gap-3">
+                <a href="/recruitment/java-recruitment" class="lg:w-1/2 w-full transition-all rounded-md ">
+                    <div class="rounded-xl border bg-card text-card-foreground shadow w-full h-full flex py-3 flex-col items-center justify-center hover:border-primary">
+                        <div class="flex justify-center items-center">
+                            <img src="/images/tech/java.png" class="w-[100px]"/></div>
+                            <div class="flex flex-col justify-center items-center gap-3">
+                                <h6 class="text-xl">Java</h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/recruitment/angular-recruitment" class="lg:w-1/2 w-full transition-all rounded-md ">
+                        <div class="rounded-xl border bg-card text-card-foreground shadow w-full h-full flex py-3 flex-col items-center justify-center hover:border-primary">
+                            <div class="flex justify-center items-center">
+                                <img src="/images/tech/angular.png" class="w-[100px]"/></div>
+                                <div class="flex flex-col justify-center items-center gap-3">
+                                    <h6 class="text-xl">Angular</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-full lg:w-1/2 flex lg:flex-row flex-col gap-3">
+                        <a href="/recruitment/drupal-recruitment" class="lg:w-1/2 w-full transition-all rounded-md ">
+                            <div class="rounded-xl border bg-card text-card-foreground shadow w-full h-full flex py-3 flex-col items-center justify-center hover:border-primary">
+                                <div class="flex justify-center items-center">
+                                    <img src="/images/tech/drupal.png" class="w-[100px]"/></div>
+                                    <div class="flex flex-col justify-center items-center gap-3">
+                                        <h6 class="text-xl">Drupal</h6>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="/recruitment/net-recruitment" class="lg:w-1/2 w-full transition-all rounded-md ">
+                                <div class="rounded-xl border bg-card text-card-foreground shadow w-full h-full flex py-3 flex-col items-center justify-center hover:border-primary">
+                                    <div class="flex justify-center items-center">
+                                        <img src="/images/tech/net.png" class="w-[100px]"/></div>
+                                        <div class="flex flex-col justify-center items-center gap-3">
+                                            <h6 class="text-xl">.NET</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+
     </>
   )
 }
