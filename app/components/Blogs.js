@@ -26,11 +26,10 @@ export default function Blogs() {
 
     }, [])
   return (
-    <div className='py-10 mb-10'>
-      <div className='flex justify-center py-10'>
-        <div className='w-3/4 text-center py-10 flex flex-col items-center gap-3'>
+    <div className='py-10 '>
+      <div className='flex justify-center py-5'>
+        <div className='w-3/4 text-center  flex flex-col items-center gap-3'>
           <h1 className='text-xl'>Enhance your knowledge by checking out our latest blog posts</h1>
-          {/* <p>At Quick-board, we offer a wide range of benefits for job seekers. From a variety of industries to job alert subscriptions and resources, we have everything you need to find your dream job.</p> */}
         </div>
       </div>
       <>

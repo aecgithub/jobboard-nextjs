@@ -20,7 +20,7 @@ export default function JobCard(props) {
                 :
                 null
                 }
-                  {props.remote === true ? <Badge className="bg-red-500 text-white hover:bg-red-500">Remote</Badge> : null}
+                  {props.remote === true ? <Badge className="bg-yellow-500 text-white hover:bg-yellow-500">Remote</Badge> : null}
                   
                 { props.remote === true ?
                       null
