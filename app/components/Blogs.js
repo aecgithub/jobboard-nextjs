@@ -19,8 +19,8 @@ export default function Blogs() {
     useEffect(() => {
         const response = axios.get('api/blogs')
         const res = response.then(function (data) {
-            setBlogs(data.data)
-            console.log(data.data)
+            setBlogs(data.data.slice(0, 5))
+            console.log(data.data.slice(0, 5))
             
         })
 
@@ -65,7 +65,6 @@ export default function Blogs() {
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
-          {/* {blogs?.length == 0 ? "empty" : "not empty"} */}
           {blogs?.slice(0, 5).map((blog)=>(
             <SwiperSlide key={blog.key}>
               <BlogContent  data={blog}/>

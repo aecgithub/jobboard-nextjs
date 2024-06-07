@@ -1,4 +1,6 @@
 {
+  "/api/blogs/[id]/route": "app/api/blogs/[id]/route.js",
+  "/page": "app/page.js",
   "/api/blogs/route": "app/api/blogs/route.js",
-  "/page": "app/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

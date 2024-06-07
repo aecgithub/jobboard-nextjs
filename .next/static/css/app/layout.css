@@ -1844,10 +1844,6 @@ video {
   .sm\:text-left {
     text-align: left;
   }
-
-  .sm\:text-center {
-    text-align: center;
-  }
 }
 
 @media (min-width: 768px) {
@@ -1878,10 +1874,6 @@ video {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:text-center {
-    text-align: center;
   }
 }
 
