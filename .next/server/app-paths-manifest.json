@@ -1,8 +1,4 @@
 {
-  "/recruitment/java-recruitment/page": "app/recruitment/java-recruitment/page.js",
-  "/recruitment/drupal-recruitment/page": "app/recruitment/drupal-recruitment/page.js",
-  "/jobs/[id]/page": "app/jobs/[id]/page.js",
   "/jobs/page": "app/jobs/page.js",
-  "/contact/page": "app/contact/page.js",
   "/page": "app/page.js"
 }
