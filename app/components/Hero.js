@@ -16,7 +16,7 @@ export default async function Hero() {
                 <img src='/images/home/main.png' className='w-1/2 lg:w-[400px]'/>
             </div>
 
-              <p className='text-sm text-center lg:text-left py-4 lg:pr-10 pr-0'>Welcome to BE Consultancy Group, an IT consultancy catering to international institutions and organizations. Specializing in IT software consultancy, outsourcing, and staffing services, we excel in providing top-tier IT talent for global entities</p>
+              <p className='text-sm text-center lg:text-left py-4 lg:pr-10 pr-0'>Welcome to BE Consultancy Group, an IT consultancy catering to international institutions and organizations. Specializing in IT software consultancy, outsourcing, and staffing services, we excel in providing top-tier IT talent for global entities.</p>
             <div className='flex gap-2 py-3 justify-center'>
                 <Button className="gap-2 " asChild>
                   <a href='/jobs'>
