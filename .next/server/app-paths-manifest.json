@@ -1,7 +1,4 @@
 {
   "/page": "app/page.js",
-  "/recruitment/angular-recruitment/page": "app/recruitment/angular-recruitment/page.js",
-  "/recruitment/java-recruitment/page": "app/recruitment/java-recruitment/page.js",
-  "/jobs/page": "app/jobs/page.js",
-  "/recruitment/net-recruitment/page": "app/recruitment/net-recruitment/page.js"
+  "/api/blogs/route": "app/api/blogs/route.js"
 }

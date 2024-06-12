@@ -15,12 +15,12 @@ export default function JobCard(props) {
         <div className='flex justify-between items-center pt-2'>
               <div className='flex gap-1 items-center'>
                 {props.type ?
-                <Badge className="bg-blue-500 text-white hover:bg-blue-500">{props.type}</Badge>
+                <Badge className={cn(" text-white ", props.type === "Contract" ? "bg-yellow-500 hover:bg-yellow-500" : "bg-blue-500 hover:bg-blue-500")}>{props.type}</Badge>
                 
                 :
                 null
                 }
-                  {props.remote === true ? <Badge className="bg-yellow-500 text-white hover:bg-yellow-500">Remote</Badge> : null}
+                  {props.remote === true ? <Badge className="bg-purple-500 text-white hover:bg-purple-500">Remote</Badge> : null}
                   
                 { props.remote === true ?
                       null
