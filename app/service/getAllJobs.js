@@ -2,7 +2,7 @@
 
 export async function getJobs(){
     try {
-      const response = await fetch("https://aec-nextjs.netlify.app/api/all", { next: { revalidate: 3600 } })
+      const response = await fetch("https://aec-nextjs.netlify.app/api/all", { next: { revalidate: 300 } })
         const data = await response.json()
         // console.log(data)
         return data 
