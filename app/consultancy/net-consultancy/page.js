@@ -6,6 +6,8 @@ export const metadata = {
 }
 
 export default function page() {
+  const technology = ".NET"
+
   return (
     <div className='flex justify-center mb-10'>
       <div className='lg:w-4/5 w-full'>

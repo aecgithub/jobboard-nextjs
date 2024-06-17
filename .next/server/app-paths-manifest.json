@@ -1,7 +1,7 @@
 {
   "/consultancy/bigdata-consultancy/page": "app/consultancy/bigdata-consultancy/page.js",
-  "/consultancy/drupal-consultancy/page": "app/consultancy/drupal-consultancy/page.js",
   "/consultancy/mobile-developer-consultancy/page": "app/consultancy/mobile-developer-consultancy/page.js",
-  "/consultancy/net-consultancy/page": "app/consultancy/net-consultancy/page.js",
-  "/consultancy/devops-consultancy/page": "app/consultancy/devops-consultancy/page.js"
+  "/consultancy/drupal-consultancy/page": "app/consultancy/drupal-consultancy/page.js",
+  "/consultancy/devops-consultancy/page": "app/consultancy/devops-consultancy/page.js",
+  "/consultancy/net-consultancy/page": "app/consultancy/net-consultancy/page.js"
 }
