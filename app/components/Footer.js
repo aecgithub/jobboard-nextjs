@@ -17,15 +17,15 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className='w-1/2'>
-                        <h6 className='text-sm font-semibold'>RECRUITMENT</h6>
+                          <h6 className='text-sm font-semibold'>IT Consultancy</h6>
                         <div className='flex flex-col text-sm py-4 gap-2'>
-                            <a className='hover:text-primary' href='/recruitment/java-recruitment'>Java Recruitment</a>
-                            <a className='hover:text-primary' href='/recruitment/angular-recruitment'>Angular Recruitment</a>
-                            <a className='hover:text-primary' href='/recruitment/net-recruitment'>.NET Recruitment</a>
-                            <a className='hover:text-primary' href='/recruitment/drupal-recruitment'>Drupal Recruitment</a>
-                            <a className='hover:text-primary' href='/recruitment/devops-recruitment'>DevOps Recruitment</a>
-                            <a className='hover:text-primary' href='/recruitment/big-data-recruitment'>Big Data Recruitment</a>
-                            <a className='hover:text-primary' href='/recruitment/mobile-developer-recruitment'>Mobile Developer Recruitment</a>
+                              <a className='hover:text-primary' href='/consultancy/java-consultancy'>Java Consultancy</a>
+                              <a className='hover:text-primary' href='/recruitment/angular-consultancy'>Angular Consultancy</a>
+                              <a className='hover:text-primary' href='/consultancy/net-consultancy'>.NET Consultancy</a>
+                              <a className='hover:text-primary' href='/consultancy/drupal-consultancy'>Drupal Consultancy</a>
+                              <a className='hover:text-primary' href='/consultancy/devops-consultancy'>DevOps Consultancy</a>
+                              <a className='hover:text-primary' href='/consultancy/big-data-consultancy'>Big Data Consultancy</a>
+                              <a className='hover:text-primary' href='/consultancy/mobile-developer-consultancy'>Mobile Consultancy Recruitment</a>
                         </div>
                     </div>
                 </div>

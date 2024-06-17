@@ -57,16 +57,16 @@ export function Header() {
                                         <a href="/jobs" className="text-black">Jobs</a>
                                         <Accordion type="single" collapsible className="w-full">
                                             <AccordionItem className="border-0" value="item-1">
-                                                <AccordionTrigger className="text-black py-0">Recruitment</AccordionTrigger>
+                                                <AccordionTrigger className="text-black py-0">IT Consultancy</AccordionTrigger>
                                                 <AccordionContent className="pb-0">
                                                     <div className="flex flex-col gap-3 pt-3">
-                                                        <a className="text-black" href='/recruitment/java-recruitment'>Java Recruitment</a>
-                                                        <a className="text-black" href='/recruitment/angular-recruitment'>Angular Recruitment</a>
-                                                        <a className="text-black" href='/recruitment/net-recruitment'>.NET Recruitment</a>
-                                                        <a className="text-black" href='/recruitment/drupal-recruitment'>Drupal Recruitment</a>
-                                                        <a className="text-black" href='/recruitment/devops-recruitment'>DevOps Recruitment</a>
-                                                        <a className="text-black" href='/recruitment/big-data-recruitment'>Big Data Recruitment</a>
-                                                        <a className="text-black" href='/recruitment/mobile-developer-recruitment'>Mobile Developer Recruitment</a>
+                                                        <a className="text-black" href='/consultancy/java-consultancy'>Java Consultancy</a>
+                                                        <a className="text-black" href='/consultancy/angular-consultancy'>Angular Consultancy</a>
+                                                        <a className="text-black" href='/consultancy/net-consultancy'>.NET Consultancy</a>
+                                                        <a className="text-black" href='/consultancy/drupal-consultancy'>Drupal Consultancy</a>
+                                                        <a className="text-black" href='/consultancy/devops-consultancy'>DevOps Consultancy</a>
+                                                        <a className="text-black" href='/consultancy/big-data-consultancy'>Big Data Consultancy</a>
+                                                        <a className="text-black" href='/consultancy/mobile-developer-consultancy'>Mobile Developer Consultancy</a>
                                                     </div>
                                                 </AccordionContent>
                                             </AccordionItem>
@@ -109,55 +109,55 @@ export function Header() {
                             </Link>
                         </NavigationMenuItem>
                         <NavigationMenuItem>
-                            <NavigationMenuTrigger>Recruitment</NavigationMenuTrigger>
+                                <NavigationMenuTrigger>IT Consultancy</NavigationMenuTrigger>
                             <NavigationMenuContent>
                                 <ul className="grid w-[300px] gap-3 p-4 md:w-[400px] md:grid-cols-2">
                                     <li>
                                         <NavigationMenuLink asChild>
-                                            <a href="/recruitment/java-recruitment" className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
-                                                <div className="text-sm font-medium leading-none">Java Recruitment</div>
+                                            <a href="/consultancy/java-consultancy" className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
+                                                    <div className="text-sm font-medium leading-none">Java Consultancy</div>
                                             </a>
                                         </NavigationMenuLink>
                                     </li>
                                     <li>
                                         <NavigationMenuLink asChild>
-                                                <a href="/recruitment/angular-recruitment" className={cn( "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
-                                                <div className="text-sm font-medium leading-none">Angular Recruitment</div>
+                                                <a href="/consultancy/angular-consultancy" className={cn( "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
+                                                    <div className="text-sm font-medium leading-none">Angular Consultancy</div>
                                             </a>
                                         </NavigationMenuLink>
                                     </li>
                                         <li>
                                             <NavigationMenuLink asChild>
-                                                <a  href="/recruitment/net-recruitment" className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
-                                                    <div className="text-sm font-medium leading-none">.NET Recruitment</div>
+                                                <a  href="/consultancy/net-consultancy" className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
+                                                    <div className="text-sm font-medium leading-none">.NET Consultancy</div>
                                                 </a>
                                             </NavigationMenuLink>
                                         </li>
                                         <li>
                                             <NavigationMenuLink asChild>
-                                                <a href="/recruitment/drupal-recruitment" className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
-                                                    <div className="text-sm font-medium leading-none">Drupal Recruitment</div>
+                                                <a href="/consultancy/drupal-consultancy" className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
+                                                    <div className="text-sm font-medium leading-none">Drupal Consultancy</div>
                                                 </a>
                                             </NavigationMenuLink>
                                         </li>
                                         <li>
                                             <NavigationMenuLink asChild>
-                                                <a href="/recruitment/devops-recruitment" className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
-                                                    <div className="text-sm font-medium leading-none">DevOps Recruitment</div>
+                                                <a href="/consultancy/devops-consultancy" className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
+                                                    <div className="text-sm font-medium leading-none">DevOps Consultancy</div>
                                                 </a>
                                             </NavigationMenuLink>
                                         </li>
                                         <li>
                                             <NavigationMenuLink asChild>
-                                                <a href="/recruitment/bigdata-recruitment" className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
-                                                    <div className="text-sm font-medium leading-none">Big Data Recruitment</div>
+                                                <a href="/consultancy/bigdata-consultancy" className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
+                                                    <div className="text-sm font-medium leading-none">Big Data Consultancy</div>
                                                 </a>
                                             </NavigationMenuLink>
                                         </li>
                                         <li>
                                             <NavigationMenuLink asChild>
-                                                <a href="/recruitment/mobile-developer-recruitment" className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
-                                                    <div className="text-sm font-medium leading-none">Mobile Developer Recruitment</div>
+                                                <a href="/consultancy/mobile-developer-consultancy" className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",)} >
+                                                    <div className="text-sm font-medium leading-none">Mobile Developer Consultancy</div>
                                                 </a>
                                             </NavigationMenuLink>
                                         </li>
