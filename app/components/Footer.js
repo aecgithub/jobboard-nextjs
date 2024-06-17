@@ -25,7 +25,7 @@ export default function Footer() {
                               <a className='hover:text-primary' href='/consultancy/drupal-consultancy'>Drupal Consultancy</a>
                               <a className='hover:text-primary' href='/consultancy/devops-consultancy'>DevOps Consultancy</a>
                               <a className='hover:text-primary' href='/consultancy/big-data-consultancy'>Big Data Consultancy</a>
-                              <a className='hover:text-primary' href='/consultancy/mobile-developer-consultancy'>Mobile Consultancy Recruitment</a>
+                <a className='hover:text-primary' href='/consultancy/mobile-developer-consultancy'>Mobile Developer Consultancy</a>
                         </div>
                     </div>
                 </div>
