@@ -13,7 +13,7 @@ export default function page() {
         <div className='flex justify-center py-6 text-center'>
           <h1 className='text-3xl'>{technology} Solutions</h1>
         </div>
-        <div className='flex gap-5 py-5 flex-col lg:flex-row'>
+        <div className='flex gap-5 py-5 flex-col lg:flex-row items-center'>
           <div className='lg:w-1/2 w-full flex flex-col gap-2'>
             <p>Comprehensive {technology} Consultancy, where we source talent for leading international institutions and organizations across the globe. </p>
             <p>Pre-screened, top-tier {technology} consultants, developers, engineers and architects.</p>
@@ -26,11 +26,14 @@ export default function page() {
           </div>
         </div>
 
-      <div className='flex flex-col gap-4 py-5 border-t'>
-          <h4 className='text-2xl '>{technology} Jobs in Europe and Asia (Asia Pacific)</h4>
-          <p>We specialize in providing recruitment services for top clients across Europe, Asia, and around the globe. We provide comprehensive career guidance and consultancy services for candidates looking for {technology} jobs with different levels of work experience. We frequently post openings for top {technology} developer jobs for full-time employees and freelancers. Perks are provided for positions that require relocation with incentives and assistance to help candidates settle down before commencing employment.</p>
-          <p>Wages are provided in line with skills and experience and, more importantly, allow candidates to broaden their horizons. We ensure that our clients give candidates a clear and rewarding career path in addition to excellent remuneration. The organizations we recruit for nurture creativity by encouraging research, learning, and professional development. If you’ve got a new idea, a unique style of development, we encourage that as we understand the value of keeping abreast of industry trends in the evolving world of software development.</p>
-      </div>
+        <div className='flex flex-col gap-4 py-5 border-t'>
+          <h4 className='text-2xl '>{technology} Onsite / Hybrid Jobs</h4>
+          <p>We specialize in providing Java Staffing services for top clients around the globe. </p>
+          <p>We provide comprehensive career guidance and consultancy services for candidates looking for {technology} jobs with different levels of work experience. We frequently post openings for top {technology} developer jobs for full-time employees and freelancers. </p>
+          <p>Help is provided for positions that require relocation with incentives and assistance to help candidates settle down before starting employment.</p>
+          <p>Renumeration is provided in line with skills and experience and, more importantly, allows consultants to broaden their horizons. We ensure that our clients give consultants a clear and rewarding career path in addition to excellent remuneration. </p>
+          <p>The organizations we recruit for nurture creativity by encouraging research, learning, and professional development. If you’ve got a new idea, a unique style of development, we encourage that as we understand the value of keeping abreast of industry trends in the evolving world of software development.</p>
+        </div>
       </div>
 
     </div>
