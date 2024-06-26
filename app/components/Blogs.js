@@ -1,30 +1,21 @@
-"use client"
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import React from 'react'
+import axios from 'axios'
 import BlogContent from './BlogContent';
 import { Button } from '@/components/ui/button';
 import { ExternalLinkIcon } from '@radix-ui/react-icons';
+import { getBlogs } from '../service/getAllJobs';
 
 
-export default function Blogs() {
-    const [blogs, setBlogs] = useState([])
-    useEffect(() => {
-        const response = axios.get('api/blogs')
-        const res = response.then(function (data) {
-            setBlogs(data.data.slice(0, 5))
-            console.log(data.data.slice(0, 5))
-            
-        })
+export default async function Blogs() {
 
-    }, [])
+  let blogs = []
+    try {
+      blogs = await getBlogs()
+    } catch (error) {
+      console.log(error)
+    }
+    console.log(blogs)
   return (
     <div className='py-10 '>
       <div className='flex justify-center py-5'>
@@ -33,43 +24,7 @@ export default function Blogs() {
         </div>
       </div>
       <>
-        <Swiper
-          spaceBetween={30}
-          centeredSlides={false}
-          slidesPerView={3}
-          autoplay={{
-            delay: 3500,
-            disableOnInteraction: false,
-          }}
-          loop={true}
-          freeMode={true}
-          breakpoints={{
-            100: {
-              slidesPerView: 1,
-              // spaceBetween: 20,
-            },
-            640: {
-              slidesPerView: 2,
-              // spaceBetween: 20,
-            },
-            768: {
-              slidesPerView: 3,
-              // spaceBetween: 40,
-            },
-            1024: {
-              slidesPerView: 3,
-              // spaceBetween: 50,
-            },
-          }}
-          modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper"
-        >
-          {blogs?.slice(0, 5).map((blog)=>(
-            <SwiperSlide key={blog.key}>
-              <BlogContent  data={blog}/>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+      <BlogContent blogs={blogs}/>
         <div className='flex justify-center py-5'>
           <Button className="flex justify-center gap-2 items-center" asChild>
             <a href='https://blog.all-european-careers.com/'>Read more Blogs <ExternalLinkIcon/></a>
