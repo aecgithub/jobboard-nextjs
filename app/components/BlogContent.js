@@ -14,16 +14,6 @@ import { ExternalLinkIcon } from '@radix-ui/react-icons';
 import BlogImages from './BlogImages';
 
 export default function BlogContent(props) {
-    // const [blogs, setBlogs] = useState([])
-    // useEffect(() => {
-    //     const response = axios.get('api/blogs')
-    //     const res = response.then(function (data) {
-    //         setBlogs(data.data.slice(0, 5))
-    //         console.log(data.data.slice(0, 5))
-
-    //     })
-
-    // }, [])
     const blogs = props.blogs
     return (
 

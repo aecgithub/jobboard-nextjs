@@ -15,7 +15,6 @@ export default async function Blogs() {
     } catch (error) {
       console.log(error)
     }
-    console.log(blogs)
   return (
     <div className='py-10 '>
       <div className='flex justify-center py-5'>

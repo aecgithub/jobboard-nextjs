@@ -4,6 +4,7 @@ import { ArrowRightIcon } from '@radix-ui/react-icons'
 import React from 'react'
 import JobCard from './JobCard'
 import { getJobs } from '../service/getAllJobs'
+import Image from 'next/image'
 
 export default async function Hero() {
     const jobs = await getJobs()
@@ -13,7 +14,7 @@ export default async function Hero() {
         <div className='lg:w-1/2 w-full flex flex-col justify-center items-center lg:items-start'>
 
             <div className='flex justify-center w-full '>
-                <img src='/images/home/hero_blue.png' className='w-full'/>
+                <Image src='/images/home/hero_blue.png' width={500} height={300} className='w-full'/>
             </div>
 
             <p className='text-sm text-center lg:text-left py-4 lg:pr-10 pr-0'>Welcome to All European Careers, a European-based consultancy specializing in IT software consultancy, outsourcing and staffing services. We specialize in Java, Angular, Mobile, DevOps, and more.</p>
