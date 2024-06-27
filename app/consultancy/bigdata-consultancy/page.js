@@ -22,7 +22,7 @@ export default function page() {
             <p>BE Consultancy is a global company and our services now extend to different regions including but not limited to Asia Pacific, Europe, North and South America, Australia, and the Middle East.</p>
           </div>
           <div className='lg:w-1/2 flex justify-center'>
-            <img src='/images/recruitment/bigdata.jpg' className='rounded-lg object-cover h-full xl:h-80'/>
+            <img src='/images/recruitment/bigdata.jpg' className='rounded-lg object-cover h-full xl:h-80' alt='bogdata solution image' />
           </div>
         </div>
 

@@ -23,7 +23,7 @@ export default function page() {
             <p>BE Consultancy is a global company and our services now extend to different regions including but not limited to Asia Pacific, Europe, North and South America, Australia, and the Middle East.</p>
           </div>
           <div className='lg:w-1/2 w-full flex justify-center'>
-            <img src='/images/recruitment/drupal.jpg' className='rounded-lg object-cover h-full xl:h-80'/>
+            <img src='/images/recruitment/drupal.jpg' className='rounded-lg object-cover h-full xl:h-80' alt='drupal solution image' />
           </div>
         </div>
 

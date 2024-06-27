@@ -82,7 +82,7 @@ export default function Expertise() {
                 <a href="/recruitment/java-recruitment" class="lg:w-1/2 w-full transition-all rounded-md ">
                     <div class="rounded-xl border bg-card text-card-foreground shadow w-full h-full flex py-3 flex-col items-center justify-center hover:border-primary">
                         <div class="flex justify-center items-center">
-                            <img src="/images/tech/java.png" class="w-[100px]"/></div>
+                            <img src="/images/tech/java.png" class="w-[100px]" alt='java logo'/></div>
                             <div class="flex flex-col justify-center items-center gap-3">
                                 <h6 class="text-xl">Java</h6>
                             </div>
@@ -91,7 +91,7 @@ export default function Expertise() {
                     <a href="/recruitment/angular-recruitment" class="lg:w-1/2 w-full transition-all rounded-md ">
                         <div class="rounded-xl border bg-card text-card-foreground shadow w-full h-full flex py-3 flex-col items-center justify-center hover:border-primary">
                             <div class="flex justify-center items-center">
-                                <img src="/images/tech/angular.png" class="w-[100px]"/></div>
+                                <img src="/images/tech/angular.png" class="w-[100px]" alt='angular logo'/></div>
                                 <div class="flex flex-col justify-center items-center gap-3">
                                     <h6 class="text-xl">Angular</h6>
                                 </div>
@@ -102,7 +102,7 @@ export default function Expertise() {
                         <a href="/recruitment/drupal-recruitment" class="lg:w-1/2 w-full transition-all rounded-md ">
                             <div class="rounded-xl border bg-card text-card-foreground shadow w-full h-full flex py-3 flex-col items-center justify-center hover:border-primary">
                                 <div class="flex justify-center items-center">
-                                    <img src="/images/tech/drupal.png" class="w-[100px]"/></div>
+                                    <img src="/images/tech/drupal.png" class="w-[100px]" alt='drupal logo'/></div>
                                     <div class="flex flex-col justify-center items-center gap-3">
                                         <h6 class="text-xl">Drupal</h6>
                                     </div>
@@ -111,7 +111,7 @@ export default function Expertise() {
                             <a href="/recruitment/net-recruitment" class="lg:w-1/2 w-full transition-all rounded-md ">
                                 <div class="rounded-xl border bg-card text-card-foreground shadow w-full h-full flex py-3 flex-col items-center justify-center hover:border-primary">
                                     <div class="flex justify-center items-center">
-                                        <img src="/images/tech/net.png" class="w-[100px]"/></div>
+                                        <img src="/images/tech/net.png" class="w-[100px]" alt='.net logo'/></div>
                                         <div class="flex flex-col justify-center items-center gap-3">
                                             <h6 class="text-xl">.NET</h6>
                                         </div>

@@ -13,7 +13,7 @@ export default async function Hero() {
         <div className='lg:w-1/2 w-full flex flex-col justify-center items-center lg:items-start'>
 
             <div className='flex justify-center w-full '>
-                <img src='/images/home/main.png' className='w-1/2 lg:w-[400px]'/>
+                <img src='/images/home/main.png' className='w-1/2 lg:w-[400px]' alt="hero image"/>
             </div>
 
               <p className='text-sm text-center lg:text-left py-4 lg:pr-10 pr-0'>Welcome to BE Consultancy Group, an IT consultancy catering to international institutions and organizations. Specializing in IT software consultancy, outsourcing, and staffing services, we excel in providing top-tier IT talent for global entities.</p>

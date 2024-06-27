@@ -40,7 +40,7 @@ export default function page() {
                     </div>
                 </div>
                 <div className='w-full lg:w-1/2 flex justify-center'>
-                    <img src='images/map.png' className=''/>
+                    <img src='images/map.png' className='' alt='branch map'/>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ export default function Footer() {
     <div className='bg-foreground py-10'>
         <div className='container lg:flex items-center'>
             <div className='lg:w-2/5 w-full flex justify-center pb-4 lg:pb-0'>
-                <img src='/images/logo.png' className='w-[200px]'/>
+                <img src='/images/logo.png' className='w-[200px]' alt="footer logo"/>
             </div>
               <div className='lg:w-3/5 w-full flex lg:flex-row flex-col text-white gap-3'>
                 <div className='lg:w-1/2 w-full flex '>

@@ -47,7 +47,7 @@ export function Header() {
                                 <SheetTitle>
                                     <div className="w-1/2">
                                         <a href="/">
-                                        <img src="/images/logo.png" />
+                                        <img src="/images/logo.png" alt="header logo"/>
                                         </a>
                                     </div>
                                 </SheetTitle>
