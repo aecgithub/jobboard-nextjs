@@ -6,56 +6,21 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/loading.js"
-    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/consultancy/java-consultancy/page": [
+    "/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/consultancy/java-consultancy/page.js"
+      "static/chunks/app/loading.js"
     ],
-    "/consultancy/angular-consultancy/page": [
+    "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/consultancy/angular-consultancy/page.js"
-    ],
-    "/consultancy/bigdata-consultancy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/consultancy/bigdata-consultancy/page.js"
-    ],
-    "/consultancy/mobile-developer-consultancy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/consultancy/mobile-developer-consultancy/page.js"
-    ],
-    "/consultancy/devops-consultancy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/consultancy/devops-consultancy/page.js"
-    ],
-    "/consultancy/drupal-consultancy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/consultancy/drupal-consultancy/page.js"
-    ],
-    "/consultancy/net-consultancy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/consultancy/net-consultancy/page.js"
-    ],
-    "/terms-and-condition/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/terms-and-condition/page.js"
+      "static/chunks/app/contact/page.js"
     ]
   }
 }

@@ -1,7 +1,4 @@
 {
-  "/terms-and-condition/page": "app/terms-and-condition/page.js",
-  "/consultancy/net-consultancy/page": "app/consultancy/net-consultancy/page.js",
-  "/consultancy/bigdata-consultancy/page": "app/consultancy/bigdata-consultancy/page.js",
-  "/consultancy/angular-consultancy/page": "app/consultancy/angular-consultancy/page.js",
-  "/consultancy/drupal-consultancy/page": "app/consultancy/drupal-consultancy/page.js"
+  "/page": "app/page.js",
+  "/contact/page": "app/contact/page.js"
 }
