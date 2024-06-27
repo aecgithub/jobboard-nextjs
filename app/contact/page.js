@@ -34,7 +34,7 @@ export default function page() {
                             <p>:</p>
                         </div>
                         <div className='space-y-3'>
-                            <p>+32 16 981 000</p>
+                              <p>+32 38 081 165</p>
                             <p>+34 96502 0606</p>
                             <p>+44 020 4502 6116</p>
                             <p>+65 3163 4500</p>
