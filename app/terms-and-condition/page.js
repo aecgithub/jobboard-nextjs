@@ -6,7 +6,7 @@ export default function page() {
     const name = 'BE Consultancy Group'
     const address = 'De Vrièrestraat 54 - 201B-2000 Belgium'
     const email = "dpo@be-consultancy-group.com"
-    const date = "13/07/2021"
+    const date = "27/06/2024"
 
     return (
         <div className='flex justify-center'>

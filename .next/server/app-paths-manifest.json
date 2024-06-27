@@ -1,9 +1,7 @@
 {
-  "/consultancy/java-consultancy/page": "app/consultancy/java-consultancy/page.js",
-  "/jobs/page": "app/jobs/page.js",
-  "/jobs/[id]/page": "app/jobs/[id]/page.js",
   "/consultancy/angular-consultancy/page": "app/consultancy/angular-consultancy/page.js",
-  "/consultancy/mobile-developer-consultancy/page": "app/consultancy/mobile-developer-consultancy/page.js",
   "/consultancy/bigdata-consultancy/page": "app/consultancy/bigdata-consultancy/page.js",
-  "/consultancy/drupal-consultancy/page": "app/consultancy/drupal-consultancy/page.js"
+  "/consultancy/drupal-consultancy/page": "app/consultancy/drupal-consultancy/page.js",
+  "/consultancy/net-consultancy/page": "app/consultancy/net-consultancy/page.js",
+  "/terms-and-condition/page": "app/terms-and-condition/page.js"
 }

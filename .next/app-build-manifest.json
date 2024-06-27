@@ -27,15 +27,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/consultancy/angular-consultancy/page.js"
     ],
-    "/consultancy/net-consultancy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/consultancy/net-consultancy/page.js"
-    ],
     "/consultancy/bigdata-consultancy/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/consultancy/bigdata-consultancy/page.js"
+    ],
+    "/consultancy/mobile-developer-consultancy/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/consultancy/mobile-developer-consultancy/page.js"
     ],
     "/consultancy/devops-consultancy/page": [
       "static/chunks/webpack.js",
@@ -47,20 +47,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/consultancy/drupal-consultancy/page.js"
     ],
-    "/consultancy/mobile-developer-consultancy/page": [
+    "/consultancy/net-consultancy/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/consultancy/mobile-developer-consultancy/page.js"
+      "static/chunks/app/consultancy/net-consultancy/page.js"
     ],
-    "/jobs/page": [
+    "/terms-and-condition/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/jobs/page.js"
-    ],
-    "/jobs/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/jobs/[id]/page.js"
+      "static/chunks/app/terms-and-condition/page.js"
     ]
   }
 }

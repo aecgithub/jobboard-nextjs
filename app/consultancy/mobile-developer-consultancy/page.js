@@ -13,7 +13,7 @@ export default function page() {
         <div className='flex justify-center py-6 text-center'>
           <h1 className='text-3xl'>{technology} Solutions</h1>
         </div>
-        <div className='flex gap-5 py-5 flex-col lg:flex-row items-center'>
+        <div className='flex gap-5 py-5 flex-col lg:flex-row '>
           <div className='lg:w-1/2 w-full flex flex-col gap-2'>
             <p>Comprehensive {technology} Consultancy, where we source talent for leading international institutions and organizations across the globe. </p>
             <p>Pre-screened, top-tier {technology} consultants, developers, engineers and architects.</p>
@@ -22,7 +22,7 @@ export default function page() {
             <p>BE Consultancy is a global company and our services now extend to different regions including but not limited to Asia Pacific, Europe, North and South America, Australia, and the Middle East.</p>
           </div>
           <div className='lg:w-1/2 w-full flex justify-center'>
-            <img src='/images/recruitment/mobile.jpg' className='rounded-lg'/>
+            <img src='/images/recruitment/mobile.jpg' className='rounded-lg object-cover h-full xl:h-80'/>
           </div>
         </div>
 
