@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-NY7474EFRK"></Script>
-        <Script
+        {/* <Script
           id='google-analytics'
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -33,7 +33,15 @@ export default function RootLayout({ children }) {
             });
             `,
           }}
-        />
+        /> */}
+        <Script id='google-analytics'>
+          {`  window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-NY7474EFRK', {
+            page_path: window.location.pathname,
+            });`}
+        </Script>
         <script src="https://cdn.pagesense.io/js/alleuropeancareers/1ec7c5bd40b9421d9aa2de28926ae05b.js" async></script>
       </head>
       <body className={inter.className}>
