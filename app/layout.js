@@ -19,13 +19,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-NY7474EFRK"></Script>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-BNXPXKCJ5Z"></Script>
         <Script id='google-analytics'>
            { `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-NY7474EFRK', {
+            gtag('config', 'G-BNXPXKCJ5Z', {
             page_path: window.location.pathname,
             });
             ` }
