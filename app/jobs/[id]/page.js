@@ -28,6 +28,65 @@ export default async function page(props) {
     const job = singleJob[0]
 
   return (
+    <>
+          <head>
+              {job?.Remote_Job ?
+                  <script type="application/ld+json">
+                      {`{
+                            "@context": "https://schema.org/",
+                            "@type": "JobPosting",
+                            "title": "${job.Job_Opening_Name}",
+                            "description": "${job.Job_Sum_up}",
+                            "hiringOrganization": {
+                                "@type" : "Organization",
+                                "name" : "All European Careers",
+                                "sameAs" : "https://all-european-careers.com",
+                                "logo" : "https://all-european-careers.com/images/logo_mini.png"
+                            },
+                            "datePosted": "${job.Date_Opened}T00:00",
+                            "validThrough": "2023-012-18T00:00",
+                            "employmentType": "${job.Job_Type}",
+                            "applicantLocationRequirements": [{
+                                    "@type": "Country",
+                                    "name": "USA"
+                                },{
+                                    "@type": "Country",
+                                    "name": "India"
+                                }],
+                            "jobLocationType": "TELECOMMUTE"
+                        }`}
+                  </script>
+                  :
+                  <script type="application/ld+json">
+                      {`{
+                            "@context" : "https://schema.org/",
+                            "@type" : "JobPosting",
+                            "title" : "${job.Job_Opening_Name}",
+                            "description" : "${job.Job_Sum_up}",
+                            "identifier": {
+                                "@type": "PropertyValue",
+                                "name": "All European Careers",
+                                "value": "ae5527b68b77cad20e-2"
+                            },
+                            "datePosted" : "${job.Date_Opened}T00:00",
+                            "validThrough" : "2023-012-18T00:00",
+                            "applicantLocationRequirements": {
+                                "@type": "Country",
+                                "name": "${job.Country}"
+                            },
+                            "jobLocationType": "TELECOMMUTE",
+                            "employmentType": "${job.Job_Type}",
+                            "hiringOrganization" : {
+                                "@type" : "Organization",
+                                "name" : "All European Careers",
+                                "sameAs" : "https://all-european-careers.com",
+                                "logo" : "https://all-european-careers.com/images/logo_mini.png"
+                            }
+
+                            }`}
+                  </script>
+              }
+          </head>
     <div className='flex justify-center py-10'>
 
         <div className='md:w-4/5 w-full '> 
@@ -68,5 +127,6 @@ export default async function page(props) {
             </div>
         </div>
     </div>
+    </>
   )
 }
