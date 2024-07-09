@@ -29,7 +29,7 @@ export default async function page(props) {
 
   return (
     <>
-          {/* <head>
+          <head>
               {job?.Remote_Job ?
                   <script type="application/ld+json">
                       {`{
@@ -86,7 +86,7 @@ export default async function page(props) {
                             }`}
                   </script>
               }
-          </head> */}
+          </head>
     <div className='flex justify-center py-10'>
 
         <div className='md:w-4/5 w-full '> 
